@@ -3,6 +3,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import Slide1 from '../../assets/img/slide1.gif';
 import Slide2 from '../../assets/img/slide2.jpg';
 import Slide3 from '../../assets/img/slide3.jpg';
+import ScrollDown from '../scroll-down/scrolldown.component'
 
 import './mycarousel.css';
 
@@ -32,6 +33,7 @@ const MyCarousel = () => {
                     />
                 </Carousel.Item>
             </Carousel>
+            <ScrollDown />
         </div>
     )
 }
