@@ -1,8 +1,14 @@
+import React from 'react'
+
+// components
+import MyNavbar, {  } from "./components/my-navbar/mynavbar"
+
 import './App.css';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
+    <div>
+      <MyNavbar />
       My Portfolio
     </div>
   );
