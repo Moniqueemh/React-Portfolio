@@ -11,7 +11,6 @@ const App = () => {
     <div>
       <MyNavbar />
       <MyCarousel />
-      My Portfolio
     </div>
   );
 }
